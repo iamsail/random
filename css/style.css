@@ -1,0 +1,103 @@
+@charset "utf-8";
+body{
+    color:#000;
+    margin:0;padding:0;
+    font:14px "Microsoft YaHei","微软雅黑",Arial,\5b8b\4f53;font-weight:bold;
+}
+
+div::selection {
+    background:#c00;
+}
+
+.chengfa{
+    font-size:50px;
+    color:#f60;
+    width:980px;
+    height:500px;
+    margin:10px auto 0 auto;
+    text-align:center;
+    overflow:auto;
+    border:2px dashed #ccc;
+    line-height:85px;
+}
+
+/*窗口宽度在639px下*/
+@media screen and (max-width: 639px) {
+    .chengfa{
+        width: 320px;
+        height: 400px;
+        margin:4px auto 0 auto;
+        border:1px dashed #ccc;
+        font-size: 20px;
+        line-height:40px;
+    }
+}
+
+
+.cfav{
+    width:240px;
+    margin:0 auto 50px;
+    padding-top:40px;
+    overflow:visible
+}
+
+
+.cfav a{
+    width:200px;
+    height:50px;
+    display:block;
+    background:#f60;
+    overflow:auto;
+    line-height:40px;
+    color:#fff;
+    text-align:center;
+    border:1px solid #f30;
+    border-radius:5px;
+    float:left;
+    margin:0 20px;
+    cursor:pointer;
+    display:none;
+    position:relative;
+}
+
+
+.cfav a:hover{
+    background:#f80;
+}
+
+.cfav a.count{
+    display:none;
+}
+
+.cfav a.moren{
+    width:200px;
+    height:40px;
+    display:block;
+    background:#f60;
+    overflow:visible;
+    line-height:40px;
+    color:#fff;
+    text-align:center;
+    border:1px solid #f30;
+    border-radius:5px;
+    float:left;
+    margin:0 20px;
+    cursor:pointer;
+    display:none;
+    position:relative;
+}
+
+
+.cfav a.count_a{
+    background:#ccc;
+    border:1px solid #eee;
+}
+
+
+.tmp_face{
+    width:400px;
+    height:400px;
+    position:absolute;
+    margin-top:-138px;
+    left:-400px;
+}
