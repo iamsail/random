@@ -95,7 +95,7 @@ function gaocf(){
 }
 
 function openFace(obj){
-	$("body").append("<img class='tmp_face' src='images/"+obj+".gif'/>");
+	$("body").append("<img class='tmp_face' src='http://www.sail.name/random/images/"+obj+".gif'/>");
 	var winW = $(window).width();
 	var winH = $(window).height();
 	$(".tmp_face").css("top",winH/2-100).fadeIn().animate({"left":winW/2-200},500).delay(1000).fadeOut(function(){
