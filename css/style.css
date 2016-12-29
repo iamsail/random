@@ -31,7 +31,7 @@ div::selection {
     line-height:85px;
     -webkit-animation: pulse 1.5s infinite ease-in-out;
     animation: pulse 1.5s infinite ease-in-out;
-    background: url(../images/8.png) center no-repeat;
+    background: url(http://www.sail.name/random/images/8.png) center no-repeat;
 }
 
 /*窗口宽度在500px下*/
